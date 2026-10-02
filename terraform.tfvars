@@ -1,0 +1,12 @@
+aws_region           = "ap-south-1"
+project_name         = "terraform-assignment"
+vpc_cidr             = "10.0.0.0/16"
+public_subnet_cidrs  = ["10.0.1.0/24", "10.0.2.0/24"]
+private_subnet_cidrs = ["10.0.3.0/24", "10.0.4.0/24"]
+instance_type        = "t3.micro"
+ami_id               = ""
+bucket_name          = "terraform-assignment-bucket-20260730"
+key_pair_name        = ""
+desired_capacity     = 2
+min_capacity         = 1
+max_capacity         = 3
